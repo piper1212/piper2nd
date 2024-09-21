@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:text="Add New Task"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="Enter task name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+
+
+    <!--    TODO 4: Create XML button object that binds to the btnSubmitTask instance in AddTaskActivity-->
+    <!--    Make sure to abide by the constraints outlined by LinearLayout when setting the layout width and height -->
+    <!--    NOTE: You have some flexibility in regards to the placement of the button from UI perspective. It does have to match the exact positioning shown the video -->
+    <!--    Functionality must be maintained. -->
+
+
+
+</LinearLayout>
